@@ -1,0 +1,164 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+/* _______________________All Headings______________________*/
+
+.testimonial-text-heading {
+    font-family: 'Caprasimo', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+.big-heading,
+.cta-heading {
+    font-family: 'Kanit', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.big-heading {
+    margin-top: 70px;
+    margin-left: 80px;
+}
+
+.prices-heading {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* __________________download button_________________ */
+.btn {
+    margin-left: 80px;
+}
+
+/* _____________________title image_________________ */
+#mobile-img {
+    margin-top: 70px;
+    width: 70%;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+
+
+/* _____________________Sections_____________________ */
+
+.survey-form{
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+
+.survey-heading-form
+{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.survey-heading
+{
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.survey-form-div
+{
+        background: linear-gradient(300deg, #ff4c68, #ff4c68);
+        background-size: 180% 180%;
+        animation: gradient-animation 40s linear infinite;
+      }
+      
+      @keyframes gradient-animation {
+        0%,
+        20% {
+          background-position: 0% 50%;
+        }
+        100% {
+          background: linear-gradient(300deg, #d13249, #d13249);
+          background-position: 100% 50%;
+        }
+      }
+
+ .colored-section {
+    background-color: #ff4c68;
+    color: white;
+} 
+
+#title.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* __________________Features____________________ */
+
+#features {
+    text-align: center;
+    background-color: white;
+    position: relative;
+}
+
+.feature-box {
+
+    padding: 5%;
+}
+
+
+.icon {
+    margin-bottom: 1rem;
+
+}
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.testimonial-img {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*__________________Solution_______________________*/
+
+ 
+.sol-method
+{
+    margin-top: 50px;
+} 
+
+.solutions{
+
+    margin-top: 70px;
+    font-size: xx-large;
+    font-family: 'Kanit', sans-serif;
+}
+
+.list-p{
+    font-size: smaller;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.solution-images
+{
+    width: 60%;
+    margin-left: 200px;
+}
+
+
+
+
+
