@@ -48,8 +48,14 @@
       <div class="col-lg-6 ">
         <h1 class="big-heading">Providing solutions for healthier tech habits</h1>
         <button onclick="window.location.href='https://near.tl/myprojects'" class="btn btn-dark btn-lg" > <i class="fa-solid fa-eye"></i> View form</button>
-        <button  href="" class="btn btn-outline-light btn-lg">
+        <button class="btn btn-outline-light btn-lg" id="viewResponsesBtn">
           <i class="fa-solid fa-square-poll-vertical"></i> View respones</button>
+          <script>
+            var viewResponsesBtn = document.getElementById('viewResponsesBtn');
+            viewResponsesBtn.addEventListener('click', function() {
+              window.location.href = 'https://docs.google.com/document/d/1t9WK5SK9P8pmVLHQHF-hStyWBzZtSKSaGmJwkgCZFFg/edit?usp=sharing';
+            });
+          </script>
       </div>
       <div class="col-lg-6 ">
         <img id="mobile-img" src="images/techaddict.webp"> 
@@ -68,20 +74,22 @@
           <i class="fa-solid fa-user-slash fa-2xl" style="color: #d04949;"></i>
           <br><br>
           <h3>Under use</h3>
-          <p>Limited Productivity: Reluctance or inability to leverage technology for efficiency.
-            Outdated Knowledge: Falling behind in acquiring and using current digital tools.
-            Communication Gaps: Missing out on opportunities for online collaboration and communication.
-            Manual Repetition: Performing tasks manually that could be automated with technology.</p>
+          <p><b><em>Productivity:</em></b> Means you are not using technology for efficiency.<br>
+            <b><em>Communication Gaps:</em></b> Increases communication gap between you and your colleagues/classmates.<br><br>
+            <b><em>Manual Repetition:</em></b> You have to perform tasks manually that could be automated with technology.</p>
         </div>
         
         <div class="feature-box col-lg-4">
           <i class="fa-solid fa-check fa-fade fa-2xl" style="color: #d04949;"></i>
           <br><br>
           <h3>Balanced</h3>
-          <p>Efficient Workflow: Using technology to streamline tasks and enhance productivity.
-            Mindful Consumption: Being aware of and managing screen time for a healthy balance.
-            Effective Communication: Leveraging technology for clear and efficient communication.
-            Adaptive Learning: Embracing new tech tools for ongoing personal and professional development.</p>
+
+          
+          <b><em></em></b>
+          <p> 
+            <b><em>Efficient Workflow:</em></b> Using technology to streamline tasks and enhance productivity.<br>
+            <b><em>Mindful Consumption:</em></b> Means a person is aware of managing screen time.<br><br>
+            <b><em>Adaptive Learning:</em></b> Allows you to learn new tech tools for personal and professional development.</p>
         </div>
         
         <div class="feature-box col-lg-4">
@@ -89,10 +97,10 @@
           <br><br>
           <h3>Over use</h3>
           <p> 
-            Excessive Screen Time: Spending a disproportionate amount of time on digital devices.
-            Social Withdrawal: Preferring online interactions over face-to-face communication.
-            Sleep Disturbances: Disrupted sleep patterns due to late-night technology use.
-            Reduced Productivity: Technology use interfering with work or daily responsibilities.</p>
+            <b><em>Social Withdrawal:</em></b> You start preferring online interactions over face-to-face communication.<br>
+            <b><em>Sleep Disturbances:</em></b>  Disrupted sleep patterns due to late-night technology use.<br>
+            <b><em> Reduced Productivity:</em></b> Technology use interfering with work or daily responsibilities.
+            </p>
           <div class="col-lg-4">
           </div>
         </div>
@@ -117,14 +125,16 @@
           <img class="testimonial-img"   src="images/man-photo.png" alt="man-profile">
           <em>Hamza ali</em>
           <p> Procrastination: Misuse of technology, such as excessive use of social media or entertainment apps, can lead to procrastination and decreased productivity.
-            Multitasking Issues: Constant connectivity may encourage multitasking, which can reduce the quality of work and focus.</p>
+            <br>
+            After making positive changes in my habits, I've noticed improved focus and productivity.
+          </p>
         </div>
         <div class="carousel-item">
           <h2 class="testimonial-text-heading"> Digital Eye Strain. </h2>
           <img class="testimonial-img" src="images/woman-photo.jpg" alt="lady-profile">
           <em>Sarah khalid</em>
           <p>Prolonged screen time can lead to eye discomfort, dryness, and fatigue.
-            Sedentary Lifestyle: Excessive use of technology may contribute to a sedentary lifestyle, leading to health issues such as obesity and cardiovascular problems.</p>
+          leading to health issues.<br> Now, I feel much better and have adopted healthier screen habits.</p>
 
         </div>
       </div>
